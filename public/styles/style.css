@@ -1,12 +1,11 @@
 body {
-  font-family: Helvetica;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   align-items: center;
-  background-color: skyblue;
+  background-color: lightskyblue;
 }
 
 .donation-meter {
-  width: 300px
   position: relative;
 }
 #amount {
@@ -30,7 +29,13 @@ body {
   overflow: hidden;
 }
 .amount {
-  background-image: linear-gradient(darkred, crimson, crimson, crimson,crimson);
+  background-image: linear-gradient(
+    darkred,
+    crimson,
+    crimson,
+    crimson,
+    crimson
+  );
   border-radius: 100px;
   display: block;
   width: 20px;
@@ -48,8 +53,9 @@ strong {
 #enzo {
   font-size: 50px;
   font-weight: bolder;
-  width: 400px;
   text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 .goal {
   font-size: 30px;
