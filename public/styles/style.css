@@ -3,13 +3,10 @@ body {
   justify-content: center;
   align-items: center;
   background-color: skyblue;
-  transform: translateX(50%);
 }
 
 .donation-meter {
-  width: 400px;
-  transform: translateY(50%);
-  background-color: grey;
+  width: 300px
   position: relative;
 }
 #amount {
@@ -17,21 +14,23 @@ body {
 }
 #counter {
   text-align: center;
-  background-color: green;
+  font-size: 20px;
+  font-weight: bolder;
 }
 .glass {
   background: lightgrey;
   border-radius: 100px 100px 0 0;
   display: block;
   height: 300px;
-  margin: 0 35px 10px;
   padding: 5px;
   position: relative;
   width: 20px;
+  margin: 0 auto;
   text-align: center;
+  overflow: hidden;
 }
 .amount {
-  background: crimson;
+  background-image: linear-gradient(darkred, crimson, crimson, crimson,crimson);
   border-radius: 100px;
   display: block;
   width: 20px;
@@ -67,11 +66,10 @@ strong {
   border-radius: 100px;
   display: block;
   height: 50px;
-  margin: 0 35px 10px;
+  margin: 0 auto;
   padding: 5px;
   position: relative;
   top: -20px;
-  right: 15px;
   width: 50px;
 }
 .red-circle {
@@ -119,12 +117,14 @@ strong {
 }
 
 .decrement p {
+  font-size: 40px;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .increment p {
+  font-size: 40px;
   align-items: center;
   justify-content: center;
   text-align: center;
