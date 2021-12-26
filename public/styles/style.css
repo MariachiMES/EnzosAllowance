@@ -42,6 +42,7 @@ body {
   position: absolute;
   bottom: 5px;
   transition: 0.5s;
+  -webkit-transition: 0.5s;
 }
 #counter {
   display: block;
