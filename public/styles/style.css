@@ -2,11 +2,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   align-items: center;
-  background-color: rgba(93, 148, 251, 255);
-  background-image: url("../images/marioBackground.jpeg");
+  background-color: rgba(0, 113, 251, 255);
+  background-image: url("../images/paperMarioBG.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 150px;
+  background-position-y: 220px;
 }
 
 .donation-meter {
