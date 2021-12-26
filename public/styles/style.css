@@ -2,10 +2,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: center;
   align-items: center;
-  background-color: lightskyblue;
+  background-color: rgba(93, 148, 251, 255);
   background-image: url("../images/marioBackground.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: 150px;
 }
 
 .donation-meter {
@@ -58,6 +59,8 @@ body {
 #counter {
   display: block;
   text-align: center;
+  text-shadow: 3px 3px black;
+  color: white;
 }
 strong {
   display: block;
