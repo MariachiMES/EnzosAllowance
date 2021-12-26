@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  transform: translateX(50%);
+}
+
+.donation-meter {
+  width: 400px;
+  transform: translateY(50%);
+  background-color: grey;
+  position: relative;
+}
+#amount {
+  background-color: crimson;
+}
+#counter {
+  text-align: center;
+  background-color: green;
+}
+.glass {
+  background: lightgrey;
+  border-radius: 100px 100px 0 0;
+  display: block;
+  height: 300px;
+  margin: 0 35px 10px;
+  padding: 5px;
+  position: relative;
+  width: 20px;
+  text-align: center;
+}
+.amount {
+  background: crimson;
+  border-radius: 100px;
+  display: block;
+  width: 20px;
+  position: absolute;
+  bottom: 5px;
+}
+#counter {
+  display: block;
+  text-align: center;
+}
+strong {
+  display: block;
+  text-align: center;
+}
+#enzo {
+  font-size: 50px;
+  font-weight: bolder;
+  width: 400px;
+  text-align: center;
+}
+.goal {
+  font-size: 30px;
+  margin: 20px;
+}
+.total {
+  font-size: 16px;
+  position: absolute;
+  right: 35px;
+}
+
+.bulb {
+  background: lightgrey;
+  border-radius: 100px;
+  display: block;
+  height: 50px;
+  margin: 0 35px 10px;
+  padding: 5px;
+  position: relative;
+  top: -20px;
+  right: 15px;
+  width: 50px;
+}
+.red-circle {
+  background: crimson;
+  border-radius: 100px;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+.filler {
+  background: crimson;
+  border-radius: 100px 100px 0 0;
+  display: block;
+  height: 30px;
+  width: 20px;
+  position: relative;
+  top: -65px;
+  right: -15px;
+  z-index: 30;
+}
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.decrement {
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+.increment {
+  border-radius: 50%;
+  background-color: greenyellow;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.decrement p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.increment p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
