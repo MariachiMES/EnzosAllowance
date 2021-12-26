@@ -6,7 +6,6 @@ body {
   background-image: url("../images/paperMarioBG.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: 220px;
 }
 
 .donation-meter {
