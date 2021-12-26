@@ -6,7 +6,7 @@ const plusBtn = document.querySelector(".increment");
 var enzoSavings = localStorage.getItem("enzoSavings");
 counter.textContent = "$" + enzoSavings;
 const thermometerHeight = function () {
-  let yTranslate = enzoSavings * -1.2 - 12;
+  let yTranslate = enzoSavings * -1.4 - 10.9;
   console.log(yTranslate);
   amountEl.style.height = enzoSavings * 10 + "%";
   document.getElementById(
@@ -23,7 +23,7 @@ plusBtn.addEventListener("click", function () {
     localStorage.setItem("enzoSavings", enzoSavings);
     amountEl.style.height = enzoSavings * 10 + "%";
     document.getElementById("mario").style.transform = `translate(-25%, ${
-      enzoSavings * -1.2 - 12
+      enzoSavings * -1.3 - 10.9
     }em)`;
   }
 });
@@ -36,7 +36,7 @@ minusBtn.addEventListener("click", function () {
     localStorage.setItem("enzoSavings", enzoSavings);
     amountEl.style.height = enzoSavings * 10 + "%";
     document.getElementById("mario").style.transform = `translate(-25%, ${
-      enzoSavings * -1.2 - 12
+      enzoSavings * -1.3 - 10.9
     }em)`;
   }
 });

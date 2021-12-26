@@ -52,7 +52,7 @@ body {
   display: block;
   width: 20px;
   position: absolute;
-  bottom: 5px;
+  bottom: 15px;
   transition: 0.5s;
   -webkit-transition: 0.5s;
 }
@@ -106,7 +106,7 @@ strong {
   background: crimson;
   border-radius: 100px 100px 0 0;
   display: block;
-  height: 30px;
+  height: 17px;
   width: 20px;
   position: relative;
   top: -65px;
